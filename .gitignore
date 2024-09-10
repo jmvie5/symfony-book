@@ -24,3 +24,6 @@
 /public/assets/
 /assets/vendor/
 ###< symfony/asset-mapper ###
+
+# local private decrypt key
+/config/secrets/dev/dev.decrypt.private.php
