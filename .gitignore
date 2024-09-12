@@ -27,3 +27,4 @@
 
 # local private decrypt key
 /config/secrets/dev/dev.decrypt.private.php
+/config/secrets/test/test.decrypt.private.php
