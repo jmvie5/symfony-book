@@ -27,6 +27,6 @@ class ConferenceControllerTest extends WebTestCase
         ]);
         $this->assertResponseRedirects();
         $client->followRedirect();
-        $this->assertSelectorExists('div:contains("There are 2 comments")');
+        $this->assertSelectorExists('div:contains("Il y a 2 commentaires.")');
     }
 }
